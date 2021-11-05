@@ -67,4 +67,16 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <item>0</item>
         <item>0</item>
     </integer-array>
+    
+    <!-- Color of the UDFPS pressed view -->
+    <color name="config_udfpsColor">#00ffffff</color>
+
+    <!-- HBM type of UDFPS overlay.
+            0 - GLOBAL HBM 
+            1 - LOCAL HBM
+    -->
+    <integer name="config_udfps_hbm_type">0</integer>
+
+    <!-- The radius of the enrollment progress bar, in dp -->
+    <integer name="config_udfpsEnrollProgressBar" translatable="false">68</integer>
 </resources>
