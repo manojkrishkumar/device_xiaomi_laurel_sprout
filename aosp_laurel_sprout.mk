@@ -19,21 +19,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common Corvus stuff
-$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
+# Inherit some common Elixir stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Corvus Official
-CORVUS_MAINTAINER := H3M3L
-RAVEN_LAIR := Official
+#Elixir Props
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_INCLUDE_STOCK_ACORE := false
+Elixir_MAINTAINER := H3M3L
+CUSTOM_BUILD_TYPE := OFFICIAL
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
-
-FOD_ANIMATIONS := true
-HAS_FOD := true
-
-# Pixel charging animation
-TARGET_INCLUDE_PIXEL_CHARGER := true
 
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
@@ -45,7 +41,7 @@ $(call inherit-product, $(LOCAL_PATH)/laurel_sprout.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := laurel_sprout
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := corvus_laurel_sprout
+PRODUCT_NAME := aosp_laurel_sprout
 PRODUCT_MODEL := Mi A3
 
 
