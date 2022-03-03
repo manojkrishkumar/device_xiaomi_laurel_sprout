@@ -23,7 +23,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 #Elixir Props
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_QUICK_TAP := true
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_INCLUDE_STOCK_ACORE := false
 Elixir_MAINTAINER := H3M3L
 CUSTOM_BUILD_TYPE := OFFICIAL
