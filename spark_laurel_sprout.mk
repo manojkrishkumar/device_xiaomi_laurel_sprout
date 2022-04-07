@@ -44,7 +44,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="laurel_sprout" \
     PRIVATE_BUILD_DESC="laurel_sprout-user 11 RKQ1.200903.002 V12.0.15.0.RFQMIXM release-keys" 
 
-BUILD_FINGERPRINT := "google/raven/raven:12/SQ1D.220205.003/8069835:user/release-keys"
+BUILD_FINGERPRINT := "google/raven/raven:12/SP2A.220405.004/8233519:user/release-keys"
 
 # UDFPS
 EXTRA_UDFPS_ICONS := true
