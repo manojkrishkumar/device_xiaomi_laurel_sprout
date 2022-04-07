@@ -1011,7 +1011,7 @@
          <bool name="config_sf_limitedAlpha">true</bool>
 
     <!-- Night Light FOD -->
-    <bool name="disable_fod_night_light">true</bool>  
+    <bool name="config_udfpsDisableNightLight">true</bool>  
 
     <!-- Suppress Intent Filter Verification Service crashes and System UI ANRs (both AOSP bugs) -->
     <string translatable="false" name="config_appsNotReportingCrashes">com.android.statementservice,com.android.systemui</string>
