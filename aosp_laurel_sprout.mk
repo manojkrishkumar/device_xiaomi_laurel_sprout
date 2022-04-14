@@ -50,10 +50,4 @@ PRODUCT_MODEL := Mi A3
 # ABI Checks
 SKIP_ABI_CHECKS := true
 
-BUILD_FINGERPRINT := "google/raven/raven:12/SP2A.220305.013.A3/8229987:user/release-keys"
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="laurel_sprout-user 10 QKQ1.190910.002 V11.0.15.0.QFQMIXM release-keys" \
-    PRODUCT_NAME="laurel_sprout"
-    
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
