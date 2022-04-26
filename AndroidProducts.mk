@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_laurel_sprout.mk
+    $(LOCAL_DIR)/lighthouse_laurel_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_laurel_sprout-user \
-    spark_laurel_sprout-userdebug \
-    spark_laurel_sprout-eng
+    lighthouse_laurel_sprout-user \
+    lighthouse_laurel_sprout-userdebug \
+    lighthouse_laurel_sprout-eng
