@@ -509,6 +509,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
 
+# Udfps
+PRODUCT_PACKAGES += \
+    UdfpsResources
+
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
