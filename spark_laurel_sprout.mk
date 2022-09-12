@@ -42,9 +42,9 @@ TARGET_VENDOR_PRODUCT_NAME := laurel_sprout
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="laurel_sprout" \
     PRODUCT_NAME="laurel_sprout" \
-    PRIVATE_BUILD_DESC="laurel_sprout-user 11 RKQ1.200903.002 V12.0.15.0.RFQMIXM release-keys" 
+    PRIVATE_BUILD_DESC="laurel_sprout-user 11 RKQ1.200903.002 V12.0.22.0.RFQMIXM release-keys" 
 
-BUILD_FINGERPRINT := "google/raven/raven:12/SQ3A.220705.003.A1/8672226:user/release-keys"
+BUILD_FINGERPRINT := "google/raven/raven:13/TP1A.220905.004/8927612:user/release-keys"
 
 # UDFPS
 EXTRA_UDFPS_ICONS := true
