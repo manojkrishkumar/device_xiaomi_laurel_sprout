@@ -54,7 +54,11 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib/miwatermark.so)
+        system_ext/lib64/lib-imsvideocodec.so)
+            "${PATCHELF}" --add-needed "libims_shim.so" "${2}"
+            ;;
+            
+    vendor/lib/miwatermark.so)
             "${PATCHELF}" --add-needed "libwatermark_shim.so" "${2}"
             ;;
     esac
