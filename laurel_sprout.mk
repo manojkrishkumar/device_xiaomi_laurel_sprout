@@ -477,7 +477,8 @@ PRODUCT_PACKAGES += \
 
 # Shim
 PRODUCT_PACKAGES += \
-	libwatermark_shim
+    libims_shim \
+    libwatermark_shim
 
 # SOC Properties - for S
 PRODUCT_VENDOR_PROPERTIES += \
