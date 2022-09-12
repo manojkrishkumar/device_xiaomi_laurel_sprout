@@ -58,7 +58,7 @@ function blob_fixup() {
             "${PATCHELF}" --add-needed "libims_shim.so" "${2}"
             ;;
             
-    vendor/lib/miwatermark.so)
+        vendor/lib/miwatermark.so)
             "${PATCHELF}" --add-needed "libwatermark_shim.so" "${2}"
             ;;
     esac
