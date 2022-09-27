@@ -1,7 +1,3 @@
-# Audio
-PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.audio.feature.compr_voip.enable=true
-
 # ACDB override
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.calfile0=/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
@@ -100,7 +96,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.media_vol_steps=25 \
     ro.config.vc_call_vol_default=5 \
     ro.config.vc_call_vol_steps=6 \
-    vendor.audio.adm.buffering.ms=6
+    vendor.audio.adm.buffering.ms=2
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.bluetooth.a2dp_offload.disabled=false \
